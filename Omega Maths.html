@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Omega Acadmay</title>
+
+</head>
+<style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Bahnschrift, Bahnschrift, Bahnschrift;
+}
+
+.navbar a {
+    float: left;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	background-color: white;
+	
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 30px;    
+    border: none;
+    outline: none;
+    color: ;
+    padding: 14px 16px;
+    background-color: white;
+    font-family: inherit;
+    margin: 0;
+	font-type: Bahnschrift;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	color: #1f365c;
+	background-color: #ddd;
+	
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+}
+
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
+
+</style>
+
+<body>
+<div id="body">
+<img src="Logo.png" alt="Logo" width="400">
+<div style = "position:absolute; left:0px; top:30px;font-family:bahnschrift; font-style:bold;">
+	<div class="navbar">
+		<div class="dropdown">
+			<button class="dropbtn">Courses
+			<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+			<a href="Maths.html">Level 1</a>
+			<a href="Maths.html">Level 2</a>
+			<a href="Maths.html">Level 3</a>
+			<a href="Maths.html">Level 4</a>
+			<a href="Maths.html">Level 5</a>
+			</div>
+	</div>
+</div>
+<div class="navbar">
+	<div style = "position:absolute; left:1315px; top:0px;font-family:bahnschrift; font-style:bold;">
+	<a href="Omega Maths.html">About</a>
+	</div>
+	<div style = "position:absolute; left:1385px; top:0px;font-family:bahnschrift; font-style:bold;">
+	<a href="Omega Maths.html">Login</a> 
+	</div>
+	<div style = "position:absolute; left:1455px; top:0px;font-family:bahnschrift; font-style:bold;">
+	<a href="Omega Maths.html">Signup</a> 
+	</div>
+</div>
+
+
+
+<!--<div class="comment">
+<textarea id="title" type="text "rows="2" cols="4" onkeyup="Allow()" placeholder="write a comment......"></textarea>
+<input type="submit" value="Post" onclick="insert()" style="width:20px;" /></form>
+</div>
+<div id="display"></div>
+<script type="text/javascript">
+var titles = [];
+var titleInput = document.getElementById("title");
+var messageBox = document.getElementById("display");
+function Allow()
+{
+if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
+{
+user.title.value="";
+alert("Please Enter only alphabets");
+}
+window.location.reload()
+}
+function insert () {
+titles.push(titleInput.value);
+clearAndShow();
+}
+function clearAndShow ()
+{
+titleInput.value = "";
+messageBox.innerHTML = "";
+messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
+}
+</script>-->
+</body>
+
+</html>
